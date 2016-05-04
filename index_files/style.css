@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, .row, .col-md-12 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Lato', sans-serif;
+}
+.height{
+
+	height: 30px;
+}
+.menu{
+	
+	padding: 20px;
+	height: 50px;
+}
+.menu ul li {
+	display: inline-block;
+
+}
+.custom{
+	color: white;
+	background: blue;
+}
+.header{
+	background: url(../image/header1.jpg);
+	background-size:cover; 
+	height: 700px;
+	text-align: center;
+	overflow: hidden;
+	display: inline;
+}
+.header h1{
+	text-align: center;
+	color: #222429;
+}
+.header p{
+	text-align: center;
+	color: #bbbebf;
+}
+.alarm {
+	padding: 20px;
+	height: 300px;
+}
+.alarm p{
+	color: #8f9294;
+}
+.alarm h4{
+	color:  #606061;
+}
+.protected_day{
+	height: 500px;
+}
+.protected_day img{
+	margin-left: -30px;
+}
+.protected_day h2{
+	color: #3d3e42;
+}
+.protected_day p{
+	color: #8f9294;
+}
+.beautiful_interface{
+	height: 100px;
+	text-align: center;
+	background: #f5f5f7;
+}
+.beautiful_interface h1::before{
+	border-bottom: 1px solid blue;
+}
+.pictures{
+	background: #f5f5f7;
+	overflow:hidden;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 600px;
+	text-align: center;
+}
+.pictures div img{
+	width:200px;
+	height:450px;
+	margin:25px;
+	box-shadow:0 0 4px black;
+}
+.pictures div:hover{
+	box-shadow:0 0 4px black;
+
+}
+.map img{
+	width: 80%;
+}
+.smart{
+	background: #f5f5f7;
+	height: 200px;
+	text-align: center;
+}
+.box{
+	width: 200px;
+	height: 40px;
+	border: 1 solid gray;
+	border-radius: 10%;
+}
+.cameron{
+	height: 400px;
+	background: #ffffff;
+	text-align: center;
+}
+.cameron .col-md-12 img:first-child{
+	width: 10%;
+	opacity: 0.5;
+}
+.cameron .col-md-12 img:last-child{
+	width: 10%;
+	opacity: 0.5;
+}
+
+.cameron .col-md-12 img:nth-child(2){
+	width: 15%;
+}

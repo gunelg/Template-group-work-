@@ -1,0 +1,90 @@
+﻿body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: 200px;
+	background: url(../images/bg_head.jpg);
+	background-size: 100%;
+	text-align: center;
+}
+.img-circle{
+	height: 100px;
+
+}
+.menu{
+	height: 50px;
+}
+
+.words{
+	height: 100px;
+	text-align: center;
+	
+}
+.words span{
+	color: gray;
+}
+h2{
+	text-align: center;
+	color: gray;
+}
+.services{
+	height: 300px;
+	background: ;
+}
+.b{
+	height: 300px;
+ 
+}
+.b p{
+	text-align: justify;
+}
+button{
+	text-align: center;
+}
+.recent_work h3{
+	text-align: center;
+}
+.recent_work img{
+	width:100%;
+}
+.downlaod{
+	margin:25px 0px;
+	padding: 10px;
+}
+.downlaod div.col-md-12{
+	background: lightgray;
+	border:1px solid gray;
+	margin-bottom: 5px;
+}
+.btn-dancer {
+	background: red;
+	color: white;
+	border-radius: 0;
+}
+
+.thumbnail{
+border:none;
+
+}
+.clients img{
+	width: 100%;
+}
+.clients span{
+	text-align: center;
+}
+.footer{
+	background: #242626;
+	padding: 20px;
+}
+.mini_menu {
+	color: white;
+}
+
+.footer_second{
+	background: black;
+	padding: 20px;
+}
+.footer_second span{
+	color: white;
+}
